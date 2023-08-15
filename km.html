@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif+TC">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Noto Serif TC", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+</head>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="#attractions" onclick="w3_close()" class="w3-bar-item w3-button">attractions</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16"></div>
+    <div class="w3-center w3-padding-16">金門美景</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="attractions">
+    <div class="w3-quarter">
+      <a href="金門景點_Details1.html">
+        <img src="kmimages/IMG_6788.JPG" alt="Sandwich" style="width:100%">
+        <h3>莒光樓</h3>
+      </a>
+      <p>金門金城鎮 <br> 金門著名地標建築</p>
+    </div>
+    <div class="w3-quarter">
+      <a href="金門景點_Details2.html">
+        <img src="kmimages/IMG_4729.JPG" alt="Steak" style="width:100%">
+        <h3>陳景蘭洋樓</h3>
+      </a>
+      <p>金門金湖鎮 <br>規模最大且最完善的洋樓</p>
+    </div>
+    <div class="w3-quarter">
+      <a href="金門景點_Details3.html">
+        <img src="kmimages/IMG_6892.JPG" alt="Cherries" style="width:100%">
+        <h3>古崗樓</h3>
+      </a>
+      <p>金門舊金城 <br>與自然的結合</p>
+    </div>
+    <div class="w3-quarter">
+      <a href="金門景點_Details4.html">
+        <img src="kmimages/IMG_0132.JPG" alt="Pasta and Wine" style="width:100%">
+        <h3>北山古洋樓</h3>
+      </a>
+      <p>金門金寧 <br>戰爭的見證</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <a href="金門景點_Details5.html">
+        <img src="kmimages/IMG_0421.JPG" alt="Popsicle" style="width:100%">
+        <h3>水頭得月樓</h3>
+      </a>
+      <p>金門金寧<br> 最具設計的洋樓</p>
+    </div>
+    <div class="w3-quarter">
+      <a href="金門景點_Details6.html">
+        <img src="kmimages/IMG_7974.JPG" alt="Salmon" style="width:100%">
+        <h3>太武山毋忘在莒</h3>
+      </a>
+      <p>金門太武山<br> 最佳留念點</p>
+    </div>
+    <div class="w3-quarter">
+      <a href="金門景點_Details7.html">
+        <img src="kmimages/IMG_8874.JPG" alt="Sandwich" style="width:100%">
+        <h3>金門大學</h3>
+      </a>
+      <p>金門金寧鄉 <br> 教育環境</p>
+    </div>
+    <div class="w3-quarter">
+      <a href="金門景點_Details8.html"> 
+        <img src="kmimages/IMG_0229.JPG" alt="Croissant" style="width:100%">
+        <h3>馬山觀測所</h3>
+      </a> 
+      <p>金門金沙 <br> 兩岸最近的播音據點</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>關於我</h3><br>
+    <img src="kmimages/IMG_9265.JPG" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>探索的大學生涯</b></h4>
+      <h6><i>一台相機的金門輕旅行</i></h6>
+      <p>離家到離島求學，陌生環境、全新生活圈與交友圈，帶著一台相機，從知名大景點起，逐步探索金門美食及秘境！</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>FOOTER</h3>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="kmimages/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="kmimages/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">selfie</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">picture</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">lifestyle</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">attractions</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Drinks</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Kinmen</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">snack</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">landmark</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">historic site</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">natural scenery</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">photo</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
